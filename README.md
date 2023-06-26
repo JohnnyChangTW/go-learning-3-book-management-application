@@ -7,7 +7,7 @@
 - Database name: bookStore
 
 
-## Use Docker to run MySQL container
+## Use Docker to run MySQL container on M1 chip (arm64)
 ``` shell
 docker run --name mysqlContainer -p 3306:3306 -e MYSQL_ROOT_PASSWORD=myPassword -d arm64v8/mysql:latest
 ```
